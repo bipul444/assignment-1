@@ -1,0 +1,310 @@
+@media screen and (max-width: 812px) {
+
+    .navbar{
+
+
+        .logo{
+
+            position: relative;
+            right: 80px;
+        }
+        .menu{
+            display: none;
+        }
+        .nav-btn{
+            position: relative;
+            left: 100px;
+            .login{
+                position: relative;
+                right: 110px;
+            }
+            .get-started{
+                position: relative;
+                bottom: 48px;
+                left: 12px;
+            }
+            & i{
+                display: none;
+            }
+        }
+    }
+.find-section{
+    height: 900px;
+    position: relative;
+
+    & img{
+        height: 900px;
+    }
+    .under-btn{
+        position: relative;
+        left: 270px;
+    }
+}
+.find-section .select-option{
+    width: 500px;
+    position: absolute;
+    top: 290px;
+    .select{
+        width: 10px;
+        position: relative;
+        bottom: 50px;
+
+    }
+    & input{
+        width: 200px;
+        margin-left: 50px;
+
+    }
+    & button{
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+}
+
+.buy-sell-section{
+
+
+    .yellow-part{
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+
+        & h1{
+            text-align: center;
+            font-size: 34px;
+            font-weight: 500;
+            line-height: 41.15px;
+            letter-spacing: 1px;
+        }
+        & img{
+            width: 500px;
+            margin-left: 100px;
+            margin-top: 55px;
+            color: #000000;
+        }
+
+    }
+}
+.features-section{
+    width: 100%;
+    height: 680px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black;
+
+
+    & h1{
+        font-size: 34px;
+        width: 100%;
+        height: 41px;
+        font-weight: 500;
+        line-height: 41.15px;
+        margin: 85px 63px;
+    }
+    .feature-div{
+        display: block;
+        width: 812px;
+        height: 700px;
+
+
+        & div{
+            width: 300px;
+            height: 179px;
+            position: relative;
+            left: 20%;
+            margin-bottom: 200px
+
+        }
+        .feature-btn{
+            width: 227px;
+            height: 49px;
+            border: 1px solid black;
+            border-radius: 30px;
+            position: relative;
+            top: 50px;
+            left: 250px;
+            font-size: 22px;
+            font-weight: 500;
+            background-color: transparent;
+        }
+      }
+
+    .first-hor{
+        display: none;
+    }
+    .second-hor{
+       display: none;
+    }
+}
+.buy-sell{
+
+    position: relative;
+    top: 700px;
+    left: 10px;
+    width: 812px;
+    height: auto;
+    display: block;
+
+
+
+    .buy{
+        width: 756px;
+        height: 700px;
+        background-color: #FFFFFF;
+        margin-left: 60px;
+        margin-top: 60px;
+        padding: 10px;
+
+
+        & h1{
+            font-size: 34px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        & div{
+            border: 1px solid #000000;
+            border-radius: 15px;
+            margin-top: 30px;
+            width: 626px;
+            height: 100px;
+
+
+            & img{
+                margin-left: 30px;
+                position: relative;
+                top: 13px;
+
+            }
+
+            & p{
+                display: inline;
+                padding-left: 50px;
+                position: relative;
+                bottom: 17px;
+                font-size: 20px;
+                font-weight: 500;
+
+            }
+
+        }
+        & button{
+            width: 232px;
+            height: 49px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            background-color: #000000;
+            color: #FFFFFF;
+            position: relative;
+            left: 178px;
+            top: 80px;
+            font-size: 22px;
+            font-weight: 500;
+
+        }
+    }
+    .sell{
+        width: 756px;
+        height: 700px;
+        background-color: #FFFFFF;
+        margin-left: 60px;
+        margin-top: 60px;
+        justify-content: flex-start;
+        padding: 10px;
+
+
+        & h1{
+            font-size: 34px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        & div{
+            border: 1px solid #000000;
+            border-radius: 15px;
+            margin-top: 30px;
+            width: 626px;
+            height: 100px;
+
+
+
+        }
+        & button{
+            width: 232px;
+            height: 49px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            background-color: #000000;
+            color: #FFFFFF;
+            position: relative;
+            left: 178px;
+            top: 80px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+    }
+    .for-vart{
+       display: none;
+    }
+
+}
+.sign-up-section{
+    width: 100%;
+    height: 600px;
+    background-color: #CFBAFF;
+    text-align: center;
+    border-top: 1px solid #000000;
+    position: relative;
+
+    margin-top: 610px;
+
+    & h1{
+        position: absolute;
+        left: 60px;
+        top: 10px;
+        width: 500px;
+        height: 182px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 90.77px;
+    }
+    & button{
+        position: relative;
+        top: 370px;
+        right: 30px;
+        width: 265px;
+        height: 69px;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        background-color: #000000;
+        font-size: 32px;
+        font-weight: 500;
+        color: #FFFFFF;
+
+    }
+}
+.footer{
+    background-color: #000000;
+
+    & p{
+    width: 700px;
+    height: 90px;
+    color: #FFFFFF;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    left: 0px;
+    }
+
+}
+
+
+}
